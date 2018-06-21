@@ -1,0 +1,23 @@
+.btn{
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  background-color: $secundary-color;
+  color:$color-menu-button;
+  border: 4px solid $color-menu-button;
+  margin-bottom: 5%;
+  font-size: 0.8em;
+}
+
+.btn:hover {
+  background-color: $color-menu-button;
+  color: $secundary-color;
+  border: 4px solid $color-menu-button;
+  transition: 0.5s;
+}
+
+@media (min-width:768px) {
+  .btn {
+	  width: 300px;
+	}
+}

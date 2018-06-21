@@ -1,0 +1,94 @@
+
+h1,
+h2,
+h3 {
+  color: $primary-color;
+}
+
+// h1 {
+//   color: #f4db9f;
+// }
+
+p,
+#percentage,
+#input {
+  color: $color-text;
+}
+
+small {
+  padding-top: 40px;
+  color: $color-hr;
+}
+
+h1,
+h2 {
+  line-height: 1em;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: $default-font-family-uppercase;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 10px 0;
+  font-family: $default-font-family-uppercase;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: $default-font-family-lowercase;
+}
+
+p {
+  font-family: $default-font-family-lowercase;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.team-title{
+  margin-bottom: 15px;
+}
+
+.team{
+  font-size: 0.8em;
+  line-height: 0.6em;
+}
+
+hr {
+ margin-top: 5px;
+ // margin-bottom: 50px;
+ background:$color-hr;
+ height:3px;
+ width: 30%;
+ border:none;
+}
+
+#percentage {
+  font-family: $default-font-family-lowercase;
+  color: $color-title;
+  font-size: 4em;
+  line-height: 1.5;
+  margin: 40px;
+}
+
+small,
+#input {
+  font-family: $default-font-family-lowercase;
+}
+
+@media (min-width:768px) {
+
+  hr {
+ 	width: 15%;
+ }
+
+ .p-title {
+   font-weight: 600;
+   font-size: 1.3rem;
+ }
+ 
+}
